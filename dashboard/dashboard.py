@@ -4,8 +4,9 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-#load data
-data = pd.read_csv("data_penjualan_ecommerce.csv")
+#load data github
+# data = pd.read_csv("data_penjualan_ecommerce.csv")
+data = pd.read_csv("https://raw.githubusercontent.com/anggaxvi/Analisis-Data-E-Commerce/refs/heads/main/dashboard/data_penjualan_ecommerce.csv")
 data = data.rename(columns={
     'product_category_name': 'Kategori Produk', 
     'order_id': 'Jumlah Terjual', 

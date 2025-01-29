@@ -9,7 +9,7 @@ Clone repository di lokal dengan salin kode dibawah ini.
 Setting environment atau lingkungan dengan salin kode dibawah ini.
 ```bash
   pip install streamlit
-  pip install -r dashboard/requirements.txt   
+  pip install requirements.txt   
 ```
 
     

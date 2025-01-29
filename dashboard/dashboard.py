@@ -13,6 +13,12 @@ data = data.rename(columns={
     'review_score': 'Avg. Rating'
 })
 
+#membuat sidebar
+with st.sidebar:
+    st.image("https://landing-page-dicoding.vercel.app/img/circle-g.jpg")
+    st.header('Aliefangga Harwa Nasir')
+   
+
 st.title('Proyek Akhir: Analisis Data Penjualan Produk E-Commerce :sparkles:')
 
 #visualisasi pertanyaan pertama

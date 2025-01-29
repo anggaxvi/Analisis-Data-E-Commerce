@@ -15,7 +15,7 @@ data = data.rename(columns={
 
 #membuat sidebar
 with st.sidebar:
-    st.image("https://landing-page-dicoding.vercel.app/img/circle-g.jpg")
+    st.image("https://avatars.githubusercontent.com/u/145025075?v=4")
     st.header('Aliefangga Harwa Nasir')
    
 
